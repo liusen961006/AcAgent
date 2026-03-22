@@ -218,6 +218,7 @@ def agent_loop(messages: list):
 
 if __name__ == "__main__":
     history = []
+    print(f"TOOL_HANDLERS: {TOOL_HANDLERS}")
     while True:
         try:
             query = input(f"\033[36m{AGENT_NAME} >> \033[0m")
